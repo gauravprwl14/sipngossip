@@ -1,9 +1,17 @@
 $navbar-text-color: #c69d5c;
+.bg-black {
+  background-color: black !important;
+}
 
 #header {
   .navbar-right {
     margin-left: auto;
   }
+
+  .shadow {
+    box-shadow: 0 0 40px -5px rgba(0, 0, 0, 0.1);
+  }
+
   .navbar-brand {
     color: $navbar-text-color;
   }
@@ -28,12 +36,10 @@ $navbar-text-color: #c69d5c;
     cursor: pointer;
     transition: all 500ms ease-in-out;
     color: white;
-
     &:hover {
       //   color: white;
       color: $navbar-text-color;
       border-bottom: 4px solid $navbar-text-color;
-      transition: border-bottom 0.8s linear;
       padding-bottom: 14px;
     }
   }
