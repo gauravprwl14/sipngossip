@@ -3,7 +3,8 @@
     width: 100%;
     float: left;
     overflow: hidden;
-    min-height: 600px;
+    // min-height: 600px;
+    min-height: 100vh;
     position: relative;
   }
 
@@ -194,19 +195,27 @@
 }
 
 .slide-bottom {
-  background: url(../../assets/images/home/home1.png) no-repeat scroll center
-    center/cover #fff;
+  background: url(../../assets/images/home/compress/home1.png) no-repeat scroll
+    center center/cover #fff;
 }
 .slide-left {
-  background: url(../../assets/images/home/home2.png) no-repeat scroll center
-    center/cover #fff;
+  background: url(../../assets/images/home/compress/home2.png) no-repeat scroll
+    center center/cover #fff;
 }
 
 .slide-right {
-  background: url(../../assets/images/home/home3.png) no-repeat scroll center
-    center/cover #fff;
+  background: url(../../assets/images/home/compress/home3.png) no-repeat scroll
+    center center/cover #fff;
 }
 .slide-top {
-  background: url(../../assets/images/home/home4.png) no-repeat scroll center
-    center/cover #fff;
+  background: url(../../assets/images/home/compress/home4.png) no-repeat scroll
+    center center/cover #fff;
+}
+
+@media only screen and (max-width: 768px) {
+  #home {
+    .home-welcome-msg-container {
+      padding-top: 100px;
+    }
+  }
 }

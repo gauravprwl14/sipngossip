@@ -1,0 +1,55 @@
+$navbar-text-color: #c69d5c;
+
+#aboutUs {
+  section {
+    width: 100%;
+    float: left;
+    overflow: hidden;
+    min-height: 100vh;
+    position: relative;
+    background: url(../../assets/images/about/about.png) no-repeat scroll center
+      center/cover #fff;
+  }
+
+  section.section-min {
+    min-height: 100px;
+  }
+  .about-container {
+    padding-top: 80px;
+    padding-bottom: 100px;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100vh;
+  }
+  .about-title-container {
+    font-size: 4.25rem;
+    color: darken($navbar-text-color, 20%);
+    font-family: cursive;
+  }
+  .about-msg-body {
+    padding: 15px 30px;
+    background-color: black;
+  }
+  .about-msg-body-title {
+    color: darken($navbar-text-color, 20%);
+    font-family: Montez, cursive;
+    font-size: 1.6rem;
+  }
+  .about-msg-body-year {
+    color: white;
+    font-family: Suranna, serif;
+    text-transform: uppercase;
+    font-size: 1.8rem;
+  }
+  .about-msg-body-divider {
+    color: darken($navbar-text-color, 20%);
+  }
+  .about-msg-body-content {
+    color: white;
+  }
+  .text-light-golden {
+    color: $navbar-text-color;
+  }
+  .about-msg-body-img {
+    padding: 0 30px;
+  }
+}
