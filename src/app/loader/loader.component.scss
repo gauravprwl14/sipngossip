@@ -1,0 +1,57 @@
+#loader {
+  background: black;
+  width: 100vw;
+  height: 100vh;
+  color: white;
+  position: relative;
+  display: block;
+  .loader-container {
+    top: 50%;
+    left: 50%;
+    margin-left: -5%;
+    margin-top: -10%;
+    position: absolute;
+    text-align: center;
+  }
+  .loader-text {
+    display: block;
+    font-size: 2rem;
+    font-weight: 500;
+    margin-top: 8px;
+  }
+  .loader-sign {
+    height: 100px;
+    width: 10px;
+    // background: red;
+    display: inline-block;
+    border-radius: 10px;
+  }
+  .green-loader {
+    background: green;
+    animation: bounce 2s infinite;
+  }
+  .white-loader {
+    background: white;
+    animation: bounce 3.5s infinite;
+  }
+  .red-loader {
+    background: red;
+    animation: bounce 5s infinite;
+  }
+
+  @keyframes bounce {
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-30px);
+    }
+    60% {
+      transform: translateY(-15px);
+    }
+  }
+}

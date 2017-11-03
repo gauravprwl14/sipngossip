@@ -1,6 +1,11 @@
-<app-header></app-header>
-<app-home></app-home>
-<app-about-us></app-about-us>
+<div [ngClass]="{'display-hide': showLoader===true}">
+  <app-header></app-header>
+  <app-home></app-home>
+  <app-about-us></app-about-us>
+</div>
+
+<app-loader *ngIf="showLoader"></app-loader>
+
 
 <!-- The content below is only a placeholder and can be replaced.
 <div style="text-align:center">
