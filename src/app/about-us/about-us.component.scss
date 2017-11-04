@@ -16,9 +16,10 @@ $navbar-text-color: #c69d5c;
   }
   .about-container {
     padding-top: 80px;
-    padding-bottom: 100px;
+    min-height: 100vh;
+    // padding-bottom: 100px;
     background-color: rgba(0, 0, 0, 0.5);
-    height: 100vh;
+    // height: 100vh;
   }
   .about-title-container {
     font-size: 4.25rem;

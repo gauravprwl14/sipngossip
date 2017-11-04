@@ -1,0 +1,123 @@
+$navbar-text-color: #c69d5c;
+
+section {
+  width: 100%;
+  float: left;
+  overflow: hidden;
+  min-height: 100vh;
+  position: relative;
+  background: url(../../assets/images/about/about.png) no-repeat scroll center
+    center/cover #fff;
+}
+
+.gallery-container {
+  //   padding-top: 80px;
+  //   padding-bottom: 40px;
+  min-height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.gallery-img-container {
+  // &:hover {
+  //   background: rgba(255, 255, 255, 0.3);
+  // }
+  .img-fluid {
+    transition: all 0.5s linear;
+    transform: scale3d(1, 1, 1);
+  }
+
+  .img-fluid:hover {
+    transform: scale3d(1.2, 1.2, 1);
+  }
+}
+
+.gallery-footer {
+  position: absolute;
+  bottom: 0;
+  padding: 20px;
+  left: 50%;
+  margin-left: -8rem;
+
+  .gallery-footer-text {
+    padding: 10px 40px;
+    width: 200px;
+    border: 1px solid darken($navbar-text-color, 20%);
+    font-size: 1.4rem;
+    color: white;
+    // transform: scale(0.8);
+
+    // transform: scale3d(1, 1, 1);
+    animation: bounce123 3.5s infinite;
+
+    font-weight: 300;
+    &:hover {
+      //   background: rgba(255, 255, 255, 0.3);
+      color: darken($navbar-text-color, 20%);
+      //   transform: scale3d(1, 1, 1);
+
+      transition: all 0.3s fade-in;
+    }
+  }
+}
+
+.p-t-80 {
+  padding-top: 80px;
+}
+.m-b-40 {
+  margin-bottom: 40px;
+}
+
+.margin-40 {
+  margin: 40px;
+}
+
+.col-sm-4 {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.title-text {
+  font-size: 4.25rem;
+  color: white;
+  font-family: cursive;
+  padding-bottom: 20px;
+}
+
+@keyframes bounce123 {
+  0% {
+    transform: scale(0.7);
+  }
+
+  50% {
+    transform: scale(1);
+  }
+
+  60% {
+    transform: scale(0.7);
+  }
+
+  80% {
+    transform: scale(0.9);
+  }
+
+  100% {
+    transform: scale(0.7);
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .gallery-footer {
+    position: relative;
+  }
+  .gallery-img-container {
+    .img-fluid {
+      transition: all 0.5s linear;
+      transform: scale3d(0.7, 0.7, 0.7);
+    }
+
+    .img-fluid:hover {
+      transform: scale3d(1, 1, 1);
+      background: rgba(255, 255, 255, 0.3);
+    }
+  }
+}
