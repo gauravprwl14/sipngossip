@@ -55,3 +55,12 @@
     }
   }
 }
+
+@media only screen and (max-width: 768px) {
+  #loader {
+    .loader-container {
+      margin-left: -14%;
+      margin-top: -23%;
+    }
+  }
+}
