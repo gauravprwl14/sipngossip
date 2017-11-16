@@ -9,6 +9,7 @@ import { LoaderComponent } from './loader/loader.component';
 import { MenuComponent } from './menu/menu.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { ReviewComponent } from './review/review.component';
+import { TestimonialComponent } from './testimonial/testimonial.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { ReviewComponent } from './review/review.component';
     LoaderComponent,
     MenuComponent,
     GalleryComponent,
-    ReviewComponent
+    ReviewComponent,
+    TestimonialComponent
   ],
   imports: [
     BrowserModule

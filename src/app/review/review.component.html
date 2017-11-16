@@ -15,38 +15,22 @@
             <i class="fa fa-star" aria-hidden="true"></i>
           </div> -->
           <div class="testimonials-slider text-center text-white">
-            <div class="swiper-wrapper" [ngClass]="{ 
+            <!-- <div class="swiper-wrapper" [ngClass]="{ 
               'testimonials-slide-one': 1===activeSliderIndex, 
               'testimonials-slide-two': 2===activeSliderIndex, 
               'testimonials-slide-three': 3===activeSliderIndex
-             }">
+             }"> -->
+            <div class="swiper-wrapper">
+
+              <!-- <app-testimonial *ngFor="let userObj of userReviewArray" [userImgPath]="userObj.userImgPath" [userRating]="userObj.userRating"
+                [userName]="userObj.userName" [userReview]="userObj.userReview">
+              </app-testimonial> -->
+
               <div class="swiper-slide">
                 <div class="testimonials-container shadow">
                   <img src="assets/images/reviews/user.png" alt="user avatar" />
                   <h3>
                     Ashish Mundra
-                  </h3>
-                  <span>
-                    <i class="fa fa-star text-color-theme" aria-hidden="true"></i>
-                    <i class="fa fa-star text-color-theme" aria-hidden="true"></i>
-                    <i class="fa fa-star text-color-theme" aria-hidden="true"></i>
-                    <i class="fa fa-star text-color-theme" aria-hidden="true"></i>
-                    <i class="fa fa-star" aria-hidden="true"></i>
-                  </span>
-                  <P class="review-by-user-body">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-                    laborum.
-                  </P>
-                </div>
-              </div>
-              <div class="swiper-slide">
-                <div class="testimonials-container shadow">
-                  <img src="assets/images/reviews/user.png" alt="user avatar" />
-                  <h3>
-                    Ashish Mundraaaa
                   </h3>
                   <span>
                     <i class="fa fa-star text-color-theme" aria-hidden="true"></i>
@@ -64,6 +48,64 @@
                   </P>
                 </div>
               </div>
+
+              <div class="swiper-slide">
+                <div class="testimonials-container shadow">
+                  <img src="assets/images/reviews/user.png" alt="user avatar" />
+                  <h3>
+                    Dilip Mundra
+                  </h3>
+                  <span>
+                    <i class="fa fa-star text-color-theme" aria-hidden="true"></i>
+                    <i class="fa fa-star text-color-theme" aria-hidden="true"></i>
+                    <i class="fa fa-star text-color-theme" aria-hidden="true"></i>
+                    <i class="fa fa-star " aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                  </span>
+                  <P class="review-by-user-body">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+                    laborum.
+                  </P>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="testimonials-container shadow">
+                  <img src="assets/images/reviews/user.png" alt="user avatar" />
+                  <h3>
+                    Sushant Mundra
+                  </h3>
+                  <span>
+                    <i class="fa fa-star text-color-theme" aria-hidden="true"></i>
+                    <i class="fa fa-star text-color-theme" aria-hidden="true"></i>
+                    <i class="fa fa-star text-color-theme" aria-hidden="true"></i>
+                    <i class="fa fa-star " aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                  </span>
+                  <P class="review-by-user-body">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+                    laborum.
+                  </P>
+                </div>
+              </div>
+
+            </div>
+
+
+
+
+            <div>
+              <span class="slider-icon-container">
+                <i class="fa fa-circle active-slider" aria-hidden="true"></i>
+                <i class="fa fa-circle text-color-theme" aria-hidden="true"></i>
+                <i class="fa fa-circle text-color-theme" aria-hidden="true"></i>
+              </span>
             </div>
           </div>
         </div>

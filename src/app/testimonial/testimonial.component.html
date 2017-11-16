@@ -1,0 +1,14 @@
+<div class="swiper-slide">
+  <div class="testimonials-container shadow">
+    <img src="userImgPath" alt="user avatar" />
+    <h3>
+      {{userName}}
+    </h3>
+    <span>
+      <i class="fa fa-star text-color-theme" *ngFor="let rating of userRatingArr" [ngClass]="{'text-color-theme': rating}" aria-hidden="true"></i>
+    </span>
+    <P class="review-by-user-body">
+      {{userReview}}
+    </P>
+  </div>
+</div>
