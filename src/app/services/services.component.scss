@@ -38,32 +38,127 @@ section {
 .text-color-theme {
   color: darken($navbar-text-color, 20%);
 }
-
-.service-menu-container {
-  width: 100%;
+.service-menu-main-container {
   perspective: 1000px;
-  background-image: url(../../assets/images/services/hover-img1.png);
-  height: 283px;
-  background-color: rgb(36, 35, 35);
-  border-radius: 18px;
-  position: relative;
-  vertical-align: middle;
-  text-align: center;
-  overflow: hidden;
-  margin-bottom: 20px;
-  transition: 2s;
-  transform-style: preserve-3d;
+}
 
-  .front {
-    transform: rotateY(0deg);
-    backface-visibility: hidden;
-  }
-  .back {
-    backface-visibility: hidden;
-    transform: rotateY(180deg);
-  }
+// .service-menu-container {
+// width: 100%;
+
+//   background-image: url(../../assets/images/services/hover-img1.png);
+//   height: 283px;
+//   background-color: rgb(36, 35, 35);
+//   border-radius: 18px;
+//   position: relative;
+//   vertical-align: middle;
+//   text-align: center;
+//   // overflow: hidden;
+//   margin-bottom: 20px;
+//   transition: 2s;
+//   transform-style: preserve-3d;
+
+//   .front {
+//     position: absolute;
+//     width: 100%;
+//     top: 0;
+//     // transform: translateY(-50%);
+//     // left: 0;
+
+//     transform: rotateY(0deg);
+//     backface-visibility: hidden;
+//   }
+//   .back {
+//     position: absolute;
+//     width: 100%;
+//     top: 0;
+//     // transform: translateY(-50%);
+//     // left: 0;
+//     backface-visibility: hidden;
+
+//     transform: rotateY(180deg);
+//   }
+//   &:hover {
+//     transform: rotateY(180deg);
+//   }
+// }
+
+// .service-menu-info {
+//   .service-info-title {
+//     font-size: 30px;
+//     margin: 0px;
+//     line-height: normal;
+//     text-transform: uppercase;
+//     color: white;
+//   }
+//   .service-info-body {
+//     display: block;
+//     color: darken($navbar-text-color, 20%);
+//   }
+// }
+
+.service-menu-flipper-container {
+  perspective: 1000px;
+  width: 100%;
   &:hover {
-    transform: rotateY(180deg);
+    .service-menu-flipper {
+      transform: rotateY(180deg);
+    }
+  }
+  .service-menu-flipper {
+    transition: 2s;
+    transform-style: preserve-3d;
+    height: 283px;
+    margin-bottom: 20px;
+    position: relative;
+    .front-container,
+    .back-container {
+      position: absolute;
+      text-align: center;
+      width: 100%;
+      height: 100%;
+      border-radius: 18px;
+      backface-visibility: hidden;
+    }
+    .front {
+      // background-image: url(../../assets/images/services/img1.png);
+      // background-size: 100% 100%;
+      background-image: url(../../assets/images/services/hover-img1.png);
+      background-color: rgb(36, 35, 35);
+    }
+    .back {
+      // background-image: url(../../assets/images/services/img2.png);
+      // background-size: 100% 100%;
+      backface-visibility: hidden;
+      transform: rotateY(180deg);
+      .bg-shadow {
+        background: rgba($color: #000000, $alpha: 0.4);
+      }
+    }
+    .bg-shadow {
+      background: rgba($color: #000000, $alpha: 0.2);
+      width: 100%;
+      height: 100%;
+    }
+    .flipper-face-text-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      height: 100%;
+      width: 100%;
+    }
+
+    .flipper-face-info-title {
+      font-size: 30px;
+      margin: 0px;
+      line-height: normal;
+      text-transform: uppercase;
+      color: white;
+    }
+
+    .flipper-face-info-body {
+      display: block;
+      color: darken($navbar-text-color, 20%);
+    }
   }
 }
 
@@ -71,21 +166,19 @@ section {
   width: 100%;
 }
 
-.service-menu-info {
-  position: absolute;
-  width: 100%;
-  top: 50%;
-  transform: translateY(-50%);
-  left: 0;
-  .service-info-title {
-    font-size: 30px;
-    margin: 0px;
-    line-height: normal;
-    text-transform: uppercase;
-    color: white;
-  }
-  .service-info-body {
-    display: block;
-    color: darken($navbar-text-color, 20%);
-  }
+.back-img-card-1 {
+  background-image: url(../../assets/images/services/img1.png);
+  background-size: 100% 100%;
+}
+.back-img-card-2 {
+  background-image: url(../../assets/images/services/img2.png);
+  background-size: 100% 100%;
+}
+.back-img-card-3 {
+  background-image: url(../../assets/images/services/img3.png);
+  background-size: 100% 100%;
+}
+.back-img-card-4 {
+  background-image: url(../../assets/images/services/img5.png);
+  background-size: 100% 100%;
 }
