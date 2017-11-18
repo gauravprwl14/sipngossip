@@ -1,0 +1,15 @@
+<div class="menu-item">
+  <span class="menu-item-img">
+    <img src={{menuItemImgSrcPath}} class="img-fluid" alt="Sip & Gossip">
+
+  </span>
+  <div class="menu-item-text text-left">
+    <h5 class="menu-item-name">
+      {{menuItemName}}
+      <i class="fa fa-circle vege-indicator-icons" [ngClass]="{green: menuItemType===true, red: menuItemType!==true}" aria-hidden="true"></i>
+    </h5>
+    <p class="menu-item-description">
+      {{menuItemDescription}}
+    </p>
+  </div>
+</div>

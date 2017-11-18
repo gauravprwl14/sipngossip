@@ -1,0 +1,38 @@
+$navbar-text-color: #c69d5c;
+$veg-green-color: #33aa46;
+$non-veg-red-color: #aa3333;
+
+.menu-item {
+  position: relative;
+  color: white;
+  padding: 10px;
+  .menu-item-img {
+    display: table-cell;
+    vertical-align: middle;
+    max-width: 80px;
+  }
+  .menu-item-text {
+    padding: 13px 0px 13px 13px;
+    display: table-cell;
+  }
+  .menu-item-description {
+    border-top: 1px dashed darken($navbar-text-color, 40);
+  }
+  .menu-item-name {
+    color: darken($color: $navbar-text-color, $amount: 10);
+  }
+
+  .vege-indicator-icons {
+    font-size: 9px;
+  }
+  .green {
+    color: $veg-green-color;
+  }
+  .red {
+    color: $non-veg-red-color;
+  }
+}
+
+.text-color-theme {
+  color: $navbar-text-color;
+}

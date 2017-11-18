@@ -1,0 +1,75 @@
+$navbar-text-color: #c69d5c;
+
+section {
+  width: 100%;
+  float: left;
+  overflow: hidden;
+  min-height: 100vh;
+  position: relative;
+  background: url(../../assets/images/about/about.png) no-repeat scroll center
+    center/cover #fff;
+}
+.menu-container {
+  //   padding-top: 80px;
+  //   padding-bottom: 40px;
+  min-height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.menu-title-container {
+  margin-bottom: 1px;
+}
+
+.menu-wrapper {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 3rem;
+  .menu-category-list-wrapper {
+    // background: lighten($navbar-text-color, 10);
+    background: black;
+    width: auto;
+    border-radius: 40px;
+    padding: 10px;
+    display: inline-block;
+    box-shadow: 0 0 10px 0 rgb(36, 35, 35);
+  }
+  .menu-category-list {
+    display: inline-block;
+    width: auto;
+    text-align: center;
+    padding: 13px 16px;
+    color: $navbar-text-color;
+    margin: 5px;
+    border-radius: 30px;
+    &:hover {
+      background: darken($navbar-text-color, 30);
+      color: white;
+    }
+    &.active {
+      background: darken($navbar-text-color, 30);
+      color: white;
+    }
+  }
+}
+
+.text-color-theme {
+  color: darken($navbar-text-color, 20%);
+}
+.title-sub-text {
+  display: block;
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 35px;
+  letter-spacing: 0.4em;
+}
+
+.title-text {
+  font-size: 4.25rem;
+  color: white;
+  font-family: cursive;
+  padding-bottom: 20px;
+}
+
+.p-t-60 {
+  padding-top: 60px;
+}

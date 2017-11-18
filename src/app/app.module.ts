@@ -12,7 +12,7 @@ import { ReviewComponent } from './review/review.component';
 import { TestimonialComponent } from './testimonial/testimonial.component';
 import { ServicesComponent } from './services/services.component';
 import { ContactComponent } from './contact/contact.component';
-import { AbcComponent } from './abc/abc.component';
+import { MenuItemComponent } from './shared/menu-item/menu-item.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +27,7 @@ import { AbcComponent } from './abc/abc.component';
     TestimonialComponent,
     ServicesComponent,
     ContactComponent,
-    AbcComponent
+    MenuItemComponent,
   ],
   imports: [
     BrowserModule

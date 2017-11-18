@@ -86,3 +86,10 @@ $footer-text-color: #aaa;
   padding-right: 3rem;
   padding-left: 3rem;
 }
+
+@media only screen and (max-width: 768px) {
+  .separation-line {
+    border-right: none;
+    border-bottom: 1px solid lighten($footer-background-color, 10);
+  }
+}
