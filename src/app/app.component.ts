@@ -9,7 +9,7 @@ export class AppComponent implements OnInit {
   title = 'app';
   showLoader = true;
   ngOnInit() {
-    document.addEventListener('DOMContentLoaded', (event) => {
+    window.addEventListener('load', (event) => {
       setTimeout(() => {
         this.showLoader = false;
       }, 2000);

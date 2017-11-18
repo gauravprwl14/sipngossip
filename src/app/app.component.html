@@ -1,3 +1,5 @@
+<app-loader *ngIf="showLoader"></app-loader>
+
 <div [ngClass]="{'display-hide': showLoader===true}">
   <app-header></app-header>
   <app-home></app-home>
@@ -9,7 +11,7 @@
   <app-contact></app-contact>
 </div>
 
-<app-loader *ngIf="showLoader"></app-loader>
+
 
 
 <!-- The content below is only a placeholder and can be replaced.
