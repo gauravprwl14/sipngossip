@@ -13,6 +13,7 @@ import { TestimonialComponent } from './testimonial/testimonial.component';
 import { ServicesComponent } from './services/services.component';
 import { ContactComponent } from './contact/contact.component';
 import { MenuItemComponent } from './shared/menu-item/menu-item.component';
+import { ContactUsFormComponent } from './contact-us-form/contact-us-form.component';
 
 @NgModule({
   declarations: [
@@ -28,6 +29,7 @@ import { MenuItemComponent } from './shared/menu-item/menu-item.component';
     ServicesComponent,
     ContactComponent,
     MenuItemComponent,
+    ContactUsFormComponent,
   ],
   imports: [
     BrowserModule
