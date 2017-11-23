@@ -48,7 +48,6 @@ section {
 }
 .form-container {
   padding: 30px;
-  padding: 30px;
   border-radius: 40px;
   box-shadow: 0 0 0.2rem darken($navbar-text-color, 20%);
   //   border: 1px solid darken($navbar-text-color, 10);
@@ -78,4 +77,9 @@ section {
     font-size: 1.75rem;
     font-weight: 700;
   }
+}
+.map-container {
+  padding: 20px;
+  border-radius: 40px;
+  box-shadow: 0 0 0.2rem darken($navbar-text-color, 20%);
 }

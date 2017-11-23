@@ -38,8 +38,12 @@
             </div>
           </form>
         </div>
-        <div class="col-sm-6 col-xs-12">
-
+        <div class="col-sm-5 offset-sm-1 col-xs-12 bg-black map-container">
+          <agm-map style="height: 100%" position marker [latitude]="25.3355271" [longitude]="74.6389686">
+            <agm-info-window style="height: 100%" [latitude]="25.3355271" [longitude]="74.6389686">
+              <strong>InfoWindow content</strong>
+            </agm-info-window>
+          </agm-map>
         </div>
 
       </div>
