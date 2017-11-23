@@ -44,6 +44,14 @@ $navbar-text-color: #c69d5c;
       padding-bottom: 14px;
     }
   }
+  .navbar-item {
+    .active {
+      color: $navbar-text-color !important;
+      border-bottom: 4px solid $navbar-text-color;
+      text-decoration: none;
+      padding-bottom: 14px !important;
+    }
+  }
 }
 
 @media only screen and (max-width: 768px) {
