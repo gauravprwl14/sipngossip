@@ -8,16 +8,18 @@
       </div>
       <div class="menu-wrapper text-center">
         <div class="menu-category-list-wrapper">
-          <li class="menu-category-list active">Starter</li>
-          <li class="menu-category-list">Soup</li>
-          <li class="menu-category-list">Dal</li>
-          <li class="menu-category-list">Main Course</li>
-          <li class="menu-category-list">Green Veg</li>
-          <li class="menu-category-list">Rice</li>
-          <li class="menu-category-list">Salad</li>
-          <li class="menu-category-list">Raita</li>
-          <li class="menu-category-list">Deserts</li>
-          <li class="menu-category-list">Drinks</li>
+          <li class="menu-category-list {{activeMenu===appConstants.menuCategory.drinks ? 'active': ''}}" (click)="handleMenuItemChange($event, appConstants.menuCategory.drinks)">Drinks</li>
+          <li class="menu-category-list {{activeMenu===appConstants.menuCategory.starters ? 'active': ''}}" (click)="handleMenuItemChange($event, appConstants.menuCategory.starters)">Starter</li>
+          <li class="menu-category-list {{activeMenu===appConstants.menuCategory.soup ? 'active': ''}}" (click)="handleMenuItemChange($event, appConstants.menuCategory.soup)">Soup</li>
+          <li class="menu-category-list {{activeMenu===appConstants.menuCategory.dal ? 'active': ''}}" (click)="handleMenuItemChange($event, appConstants.menuCategory.dal)">Dal</li>
+          <li class="menu-category-list {{activeMenu===appConstants.menuCategory.mainCourse ? 'active': ''}}" (click)="handleMenuItemChange($event, appConstants.menuCategory.mainCourse)">Main Course</li>
+          <li class="menu-category-list {{activeMenu===appConstants.menuCategory.greenVeg ? 'active': ''}}" (click)="handleMenuItemChange($event, appConstants.menuCategory.greenVeg)">Green Veg.</li>
+          <li class="menu-category-list {{activeMenu===appConstants.menuCategory.rice ? 'active': ''}}" (click)="handleMenuItemChange($event, appConstants.menuCategory.rice)">Rice</li>
+          <li class="menu-category-list {{activeMenu===appConstants.menuCategory.salad ? 'active': ''}}" (click)="handleMenuItemChange($event, appConstants.menuCategory.salad)">Salad</li>
+          <li class="menu-category-list {{activeMenu===appConstants.menuCategory.raita ? 'active': ''}}" (click)="handleMenuItemChange($event, appConstants.menuCategory.raita)">Raita</li>
+          <li class="menu-category-list {{activeMenu===appConstants.menuCategory.dessert ? 'active': ''}}" (click)="handleMenuItemChange($event, appConstants.menuCategory.dessert)">Dessert</li>
+
+
           <!-- <li class="menu-category-list">Starter</li>
           <li class="menu-category-list">Starter</li>
           <li class="menu-category-list">Starter</li>
@@ -36,7 +38,7 @@
       <div class="row text-center">
         <div class="col-sm-6 col-xs-12" *ngFor="let menuItem of menuItems">
           <app-menu-item [menuItemImgSrcPath]="menuItem.imgSrcPath" [menuItemName]="menuItem.name" [menuItemDescription]="menuItem.description"
-            [menuItemType]="menuItem.foodTypeVege">
+            [menuItemType]="menuItem.foodTypeVege" [menuItemCategory]="menuItem.category">
 
           </app-menu-item>
 

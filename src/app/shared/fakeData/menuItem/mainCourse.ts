@@ -1,85 +1,67 @@
-const starterMenuItemArr = [
+const mainCourseMenuItemArr = [
   {
     imgSrcPath: "assets/images/menu/img1.png",
-    name: "Paneer Chilly",
+    name: "Paneer Lahori",
     description: "food description should be brief and to the point",
     foodTypeVege: true,
-    category: "starters",
+    category: "mainCourse",
     subCategoryPresent: false,
     subCategoryName: ""
   },
   {
     imgSrcPath: "assets/images/menu/img1.png",
-    name: "Manchurain Dry",
+    name: "Paneer Lababdar",
     description: "food description should be brief and to the point",
     foodTypeVege: true,
-    category: "starters",
+    category: "mainCourse",
     subCategoryPresent: false,
     subCategoryName: ""
   },
   {
     imgSrcPath: "assets/images/menu/img1.png",
-    name: "Cheese Corn Ball",
+    name: "Paneer Amritsari",
     description: "food description should be brief and to the point",
     foodTypeVege: true,
-    category: "starters",
+    category: "mainCourse",
     subCategoryPresent: false,
     subCategoryName: ""
   },
   {
     imgSrcPath: "assets/images/menu/img1.png",
-    name: "Veg. Crispy",
+    name: "Paneer Butter Masala",
     description: "food description should be brief and to the point",
     foodTypeVege: true,
-    category: "starters",
+    category: "mainCourse",
     subCategoryPresent: false,
     subCategoryName: ""
   },
   {
     imgSrcPath: "assets/images/menu/img1.png",
-    name: "Special Roll",
+    name: "Kadhai Paneer",
     description: "food description should be brief and to the point",
     foodTypeVege: true,
-    category: "starters",
+    category: "mainCourse",
     subCategoryPresent: false,
     subCategoryName: ""
   },
   {
     imgSrcPath: "assets/images/menu/img1.png",
-    name: "French Fries",
+    name: "Paneer Patiyala",
     description: "food description should be brief and to the point",
     foodTypeVege: true,
-    category: "starters",
+    category: "mainCourse",
     subCategoryPresent: false,
     subCategoryName: ""
   },
   {
     imgSrcPath: "assets/images/menu/img1.png",
-    name: "Hara Bhara Kebab",
+    name: "Paneer Do Pyaza",
     description: "food description should be brief and to the point",
     foodTypeVege: true,
-    category: "starters",
-    subCategoryPresent: false,
-    subCategoryName: ""
-  },
-  {
-    imgSrcPath: "assets/images/menu/img1.png",
-    name: "Sunhari Tikki",
-    description: "food description should be brief and to the point",
-    foodTypeVege: true,
-    category: "starters",
-    subCategoryPresent: false,
-    subCategoryName: ""
-  },
-  {
-    imgSrcPath: "assets/images/menu/img1.png",
-    name: "Veg. Pakoda",
-    description: "food description should be brief and to the point",
-    foodTypeVege: true,
-    category: "starters",
+    category: "mainCourse",
     subCategoryPresent: false,
     subCategoryName: ""
   }
 ];
-
-export { starterMenuItemArr };
+export default mainCourseMenuItemArr;
+export { mainCourseMenuItemArr };

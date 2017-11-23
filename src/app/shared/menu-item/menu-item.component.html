@@ -6,7 +6,8 @@
   <div class="menu-item-text text-left">
     <h5 class="menu-item-name">
       {{menuItemName}}
-      <i class="fa fa-circle vege-indicator-icons" [ngClass]="{green: menuItemType===true, red: menuItemType!==true}" aria-hidden="true"></i>
+      <i *ngIf="ignoreVegSign.indexOf(menuItemCategory) === -1" class="fa fa-circle vege-indicator-icons" [ngClass]="{green: menuItemType===true, red: menuItemType!==true}"
+        aria-hidden="true"></i>
     </h5>
     <p class="menu-item-description">
       {{menuItemDescription}}
