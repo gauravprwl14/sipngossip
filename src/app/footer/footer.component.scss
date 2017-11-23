@@ -72,6 +72,13 @@ $footer-text-color: #aaa;
   float: left;
   margin: 10px;
 }
+.useful-links-container-item {
+  color: inherit;
+  &:hover {
+    color: $navbar-text-color;
+    text-decoration: none;
+  }
+}
 
 .wrap-bottom-footer {
   border-top: 1px solid lighten($footer-background-color, 10);
