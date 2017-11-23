@@ -1,4 +1,5 @@
-const menuItemArray = [
+import { starterMenuItemArr } from './starters';
+let menuItemArray = [
   {
     imgSrcPath: "assets/images/menu/img1.png",
     name: "Food Name",
@@ -36,5 +37,9 @@ const menuItemArray = [
     foodTypeVege: true
   }
 ];
+
+menuItemArray = starterMenuItemArr;
+
+
 
 export { menuItemArray };
