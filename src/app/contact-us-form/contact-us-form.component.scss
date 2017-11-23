@@ -80,6 +80,15 @@ section {
 }
 .map-container {
   padding: 20px;
+  min-height: 350px;
   border-radius: 40px;
   box-shadow: 0 0 0.2rem darken($navbar-text-color, 20%);
+}
+
+@media only screen and (max-width: 768px) {
+  .map-container {
+    height: 300px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
 }
