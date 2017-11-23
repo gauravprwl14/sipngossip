@@ -11,9 +11,9 @@ import { GalleryComponent } from './gallery/gallery.component';
 import { ReviewComponent } from './review/review.component';
 import { TestimonialComponent } from './testimonial/testimonial.component';
 import { ServicesComponent } from './services/services.component';
-import { ContactComponent } from './contact/contact.component';
 import { MenuItemComponent } from './shared/menu-item/menu-item.component';
 import { ContactUsFormComponent } from './contact-us-form/contact-us-form.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -27,9 +27,9 @@ import { ContactUsFormComponent } from './contact-us-form/contact-us-form.compon
     ReviewComponent,
     TestimonialComponent,
     ServicesComponent,
-    ContactComponent,
     MenuItemComponent,
     ContactUsFormComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule
