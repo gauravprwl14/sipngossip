@@ -7,7 +7,7 @@ import { AgmCoreModule } from '@agm/core';
 import { HeaderComponent } from '../header/header.component';
 import { HomeComponent } from '../home/home.component';
 import { AboutUsComponent } from '../about-us/about-us.component';
-import { LoaderComponent } from '../loader/loader.component';
+// import { LoaderComponent } from '../loader/loader.component';
 import { MenuComponent } from '../menu/menu.component';
 import { GalleryComponent } from '../gallery/gallery.component';
 import { ReviewComponent } from '../review/review.component';
@@ -20,7 +20,6 @@ import { MainPageLayoutComponent } from './main-page-layout/main-page-layout.com
 
 import { MainPageLayoutRoutingModule } from './main-page-layout.routing';
 
-
 @NgModule({
   imports: [
     CommonModule,
@@ -31,7 +30,7 @@ import { MainPageLayoutRoutingModule } from './main-page-layout.routing';
   ],
   declarations: [
     HeaderComponent,
-    LoaderComponent,
+    // LoaderComponent,
     HomeComponent,
     AboutUsComponent,
     MenuComponent,

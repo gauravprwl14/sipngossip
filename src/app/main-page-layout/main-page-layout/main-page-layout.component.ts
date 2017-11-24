@@ -10,13 +10,13 @@ export class MainPageLayoutComponent implements OnInit {
   constructor() { }
 
   title = 'app';
-  showLoader = true;
+  showLoader = false;
   ngOnInit() {
-    window.addEventListener('load', (event) => {
-      setTimeout(() => {
-        this.showLoader = false;
-      }, 2000);
-    });
+    // window.addEventListener('load', (event) => {
+    //   setTimeout(() => {
+    //     this.showLoader = false;
+    //   }, 2000);
+    // });
   }
 
 }
