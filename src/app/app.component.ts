@@ -6,13 +6,15 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent implements OnInit {
-  title = 'app';
-  showLoader = true;
+  // title = 'app';
+  // showLoader = true;
+  // ngOnInit() {
+  //   window.addEventListener('load', (event) => {
+  //     setTimeout(() => {
+  //       this.showLoader = false;
+  //     }, 2000);
+  //   });
+  // }
   ngOnInit() {
-    window.addEventListener('load', (event) => {
-      setTimeout(() => {
-        this.showLoader = false;
-      }, 2000);
-    });
   }
 }

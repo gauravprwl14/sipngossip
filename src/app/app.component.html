@@ -1,4 +1,4 @@
-<app-loader *ngIf="showLoader"></app-loader>
+<!-- <app-loader *ngIf="showLoader"></app-loader>
 
 <div [ngClass]="{'display-hide': showLoader===true}">
   <app-header></app-header>
@@ -10,9 +10,14 @@
   <app-review></app-review>
   <app-contact-us-form></app-contact-us-form>
   <app-footer></app-footer>
+</div> -->
+
+<div class="app-root">
+  <!-- <div class="container">
+    <app-header></app-header>
+  </div> -->
+  <router-outlet></router-outlet>
 </div>
-
-
 
 
 <!-- The content below is only a placeholder and can be replaced.
