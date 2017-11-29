@@ -15,7 +15,8 @@ const AppConstants = {
     all: "all",
     ambience: "ambience",
     food: "food",
-  },
+    events: "Party Events"
+  }
 };
 
 export default AppConstants;

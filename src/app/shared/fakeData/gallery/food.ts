@@ -63,7 +63,7 @@ const foodItemsArr = [
     category: "food"
   },
   {
-    imgSrcPath: "assets/images/food/cigarRoll/cigarRoll1.png",
+    imgSrcPath: "assets/images/food/cigarRoll/cigarRoll3.png",
     name: "Cigar Role",
     description: "food description should be brief and to the point",
     foodTypeVege: true,
@@ -77,19 +77,19 @@ const foodItemsArr = [
     category: "food"
   },
   {
-    imgSrcPath: "assets/images/food/cigarRoll/cigarRoll3.png",
+    imgSrcPath: "assets/images/food/cigarRoll/cigarRoll1.png",
     name: "Cigar Role",
     description: "food description should be brief and to the point",
     foodTypeVege: true,
     category: "food"
   },
-  {
-    imgSrcPath: "assets/images/food/lemonTea/lemonTea1.png",
-    name: "Lemon Tea",
-    description: "food description should be brief and to the point",
-    foodTypeVege: true,
-    category: "food"
-  },
+  //   {
+  //     imgSrcPath: "assets/images/food/lemonTea/lemonTea1.png",
+  //     name: "Lemon Tea",
+  //     description: "food description should be brief and to the point",
+  //     foodTypeVege: true,
+  //     category: "food"
+  //   },
   {
     imgSrcPath: "assets/images/food/lemonTea/lemonTea2.png",
     name: "Lemon Tea",
