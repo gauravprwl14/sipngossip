@@ -10,7 +10,12 @@ const AppConstants = {
     greenVeg: "greenVeg",
     drinks: "drinks",
     dessert: "dessert"
-  }
+  },
+  galleryCategory: {
+    all: "all",
+    ambience: "ambience",
+    food: "food",
+  },
 };
 
 export default AppConstants;

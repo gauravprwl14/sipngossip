@@ -1,0 +1,42 @@
+<section id="menu">
+  <div class="menu-container">
+    <div class="p-t-60">
+      <div class="menu-title-container">
+        <h3 class="title-text text-center">
+          Our Gallery
+        </h3>
+      </div>
+      <div class="menu-wrapper text-center">
+        <div class="menu-category-list-wrapper">
+          <li class="menu-category-list {{activeGallery===appConstants.galleryCategory.all ? 'active': ''}}" (click)="handleGalleryCategoryChange($event, appConstants.galleryCategory.all)">All</li>
+          <li class="menu-category-list {{activeGallery===appConstants.galleryCategory.ambience ? 'active': ''}}" (click)="handleGalleryCategoryChange($event, appConstants.galleryCategory.ambience)">Ambience</li>
+          <li class="menu-category-list {{activeGallery===appConstants.galleryCategory.food ? 'active': ''}}" (click)="handleGalleryCategoryChange($event, appConstants.galleryCategory.food)">Food</li>
+        </div>
+      </div>
+      <div class="row text-center">
+        <div class="col-sm-3 col-xs-12">
+          <app-gallery-img-view-card></app-gallery-img-view-card>
+        </div>
+        <div class="col-sm-3 col-xs-12">
+          <app-gallery-img-view-card></app-gallery-img-view-card>
+        </div>
+        <div class="col-sm-3 col-xs-12">
+          <app-gallery-img-view-card></app-gallery-img-view-card>
+        </div>
+        <div class="col-sm-3 col-xs-12">
+          <app-gallery-img-view-card></app-gallery-img-view-card>
+        </div>
+        <div class="col-sm-3 col-xs-12">
+          <app-gallery-img-view-card></app-gallery-img-view-card>
+        </div>
+        <div class="col-sm-3 col-xs-12">
+          <app-gallery-img-view-card></app-gallery-img-view-card>
+        </div>
+        <div class="col-sm-3 col-xs-12">
+          <app-gallery-img-view-card></app-gallery-img-view-card>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
