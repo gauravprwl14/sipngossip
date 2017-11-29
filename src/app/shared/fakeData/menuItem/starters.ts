@@ -36,7 +36,7 @@ const starterMenuItemArr = [
     subCategoryName: ""
   },
   {
-    imgSrcPath: "assets/images/menu/img1.png",
+    imgSrcPath: "assets/images/menu/starters/specialRoll.png",
     name: "Special Roll",
     description: "food description should be brief and to the point",
     foodTypeVege: true,
@@ -45,7 +45,7 @@ const starterMenuItemArr = [
     subCategoryName: ""
   },
   {
-    imgSrcPath: "assets/images/menu/img1.png",
+    imgSrcPath: "assets/images/menu/starters/frenchFries.png",
     name: "French Fries",
     description: "food description should be brief and to the point",
     foodTypeVege: true,
@@ -54,8 +54,8 @@ const starterMenuItemArr = [
     subCategoryName: ""
   },
   {
-    imgSrcPath: "assets/images/menu/img1.png",
-    name: "Hara Bhara Kebab",
+    imgSrcPath: "assets/images/menu/starters/haraBharaKabab.png",
+    name: "Hara Bhara Kabab",
     description: "food description should be brief and to the point",
     foodTypeVege: true,
     category: "starters",
@@ -63,7 +63,7 @@ const starterMenuItemArr = [
     subCategoryName: ""
   },
   {
-    imgSrcPath: "assets/images/menu/img1.png",
+    imgSrcPath: "assets/images/menu/starters/sunhariTikki.png",
     name: "Sunhari Tikki",
     description: "food description should be brief and to the point",
     foodTypeVege: true,
@@ -72,7 +72,7 @@ const starterMenuItemArr = [
     subCategoryName: ""
   },
   {
-    imgSrcPath: "assets/images/menu/img1.png",
+    imgSrcPath: "assets/images/menu/starters/pakoda.png",
     name: "Veg. Pakoda",
     description: "food description should be brief and to the point",
     foodTypeVege: true,
