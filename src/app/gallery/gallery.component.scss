@@ -37,6 +37,9 @@ section {
   padding: 20px;
   left: 50%;
   margin-left: -8rem;
+  &:focus {
+    outline: inherit;
+  }
 
   .gallery-footer-text {
     padding: 10px 40px;
