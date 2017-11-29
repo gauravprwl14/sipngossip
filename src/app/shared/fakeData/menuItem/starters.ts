@@ -1,6 +1,6 @@
 const starterMenuItemArr = [
   {
-    imgSrcPath: "assets/images/menu/img1.png",
+    imgSrcPath: "assets/images/menu/starters/chilliPaneer.png",
     name: "Paneer Chilly",
     description: "food description should be brief and to the point",
     foodTypeVege: true,
@@ -9,7 +9,7 @@ const starterMenuItemArr = [
     subCategoryName: ""
   },
   {
-    imgSrcPath: "assets/images/menu/img1.png",
+    imgSrcPath: "assets/images/menu/starters/manchurianDry.png",
     name: "Manchurain Dry",
     description: "food description should be brief and to the point",
     foodTypeVege: true,
@@ -18,7 +18,7 @@ const starterMenuItemArr = [
     subCategoryName: ""
   },
   {
-    imgSrcPath: "assets/images/menu/img1.png",
+    imgSrcPath: "assets/images/menu/starters/cheeseCorn.png",
     name: "Cheese Corn Ball",
     description: "food description should be brief and to the point",
     foodTypeVege: true,
