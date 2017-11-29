@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-gallery-img-view-card',
@@ -8,7 +8,11 @@ import { Component, OnInit } from '@angular/core';
 export class GalleryImgViewCardComponent implements OnInit {
 
   constructor() { }
-
+  @Input() galleryItemImgSrcPath: string;
+  @Input() galleryItemName: string;
+  @Input() galleryItemDescription: string;
+  @Input() galleryItemType: boolean;
+  @Input() galleryItemCategory: string;
   ngOnInit() {
   }
 
