@@ -1,3 +1,5 @@
+$navbar-text-color: #c69d5c;
+
 #gallery-page-slider {
   section {
     width: 100%;
@@ -207,6 +209,39 @@
 .slide-top {
   background: url(../../../assets/images/gallery/food2.jpg) no-repeat scroll
     center center/cover #fff;
+}
+
+.back-btn-container {
+  position: absolute;
+  z-index: 2;
+  left: 3%;
+  top: 2%;
+  width: 10%;
+  fill: $navbar-text-color;
+  width: 3rem;
+  height: 3rem;
+  cursor: pointer;
+  .round {
+    display: block;
+    cursor: pointer;
+
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    text-align: center;
+    font-size: 18px;
+    background-color: $navbar-text-color;
+    color: white;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.7);
+    letter-spacing: -0.065em;
+    font-family: "Hammersmith One", sans-serif;
+    transition: all 0.25s ease-in-out;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+    z-index: 1;
+    border-width: 4px;
+    border-style: solid;
+  }
 }
 
 @media only screen and (max-width: 768px) {
