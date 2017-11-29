@@ -71,7 +71,7 @@ section {
   display: flex;
   transition-property: transform;
   box-sizing: content-box;
-  animation: sliderEffect 14s infinite;
+  animation: sliderEffect 28s infinite;
 }
 
 .swiper-slide {
@@ -114,21 +114,21 @@ section {
   0%,
   25% {
     left: 0%;
-    transition: left 4s linear;
+    transition: left 8s linear;
   }
   34%,
   59% {
     left: -100%;
-    transition: left 4s linear;
+    transition: left 8s linear;
   }
   68%,
   90% {
     left: -200%;
-    transition: left 4s linear;
+    transition: left 8s linear;
   }
   100% {
     left: 0%;
-    transition: left 2s linear;
+    transition: left 4s linear;
   }
 }
 
