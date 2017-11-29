@@ -1,6 +1,6 @@
 const soupMenuItemArr = [
   {
-    imgSrcPath: "assets/images/menu/img1.png",
+    imgSrcPath: "assets/images/menu/soup/tomatoSoup.png",
     name: "Tomato Soup",
     description: "food description should be brief and to the point",
     foodTypeVege: true,
@@ -9,7 +9,7 @@ const soupMenuItemArr = [
     subCategoryName: ""
   },
   {
-    imgSrcPath: "assets/images/menu/img1.png",
+    imgSrcPath: "assets/images/menu/soup/manchowSoup.png",
     name: "Manchow Soup",
     description: "food description should be brief and to the point",
     foodTypeVege: true,
@@ -18,7 +18,7 @@ const soupMenuItemArr = [
     subCategoryName: ""
   },
   {
-    imgSrcPath: "assets/images/menu/img1.png",
+    imgSrcPath: "assets/images/menu/soup/hotAndSourSoup.png",
     name: "Hot & Sour Soup",
     description: "food description should be brief and to the point",
     foodTypeVege: true,
@@ -27,7 +27,7 @@ const soupMenuItemArr = [
     subCategoryName: ""
   },
   {
-    imgSrcPath: "assets/images/menu/img1.png",
+    imgSrcPath: "assets/images/menu/soup/vegClearSoup.png",
     name: "Veg. Clear Soup",
     description: "food description should be brief and to the point",
     foodTypeVege: true,
