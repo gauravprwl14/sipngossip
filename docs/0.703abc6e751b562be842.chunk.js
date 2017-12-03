@@ -1,1 +1,0 @@
-webpackJsonp([0],{Vk45:function(e,a,r){"use strict";r.d(a,"a",function(){return s});var s={menuCategory:{starters:"starters",soup:"soup",mainCourse:"mainCourse",dal:"dal",rice:"rice",raita:"raita",salad:"salad",greenVeg:"greenVeg",drinks:"drinks",dessert:"dessert"},galleryCategory:{all:"all",ambience:"ambience",food:"food",events:"Party Events"}};a.b=s}});
